@@ -1,0 +1,161 @@
+title: Nighthawk
+author: Layer5 Authors
+email: community@khulnasoft.com
+name:  Layer5
+description: "The Nighthawk distribution for service mesh performance characterization. Integrating Meshery and Service Mesh Performance."
+url: "https://getnighthawk.dev"
+#baseurl: /docs
+
+#Contact / Social
+github: https://github.com/khulnasoft/getnighthawk
+slack: http://slack.khulnasoft.com/
+blog: https://khulnasoft.com/blog
+docker: https://hub.docker.com/u/layer5/
+youtube: https://www.youtube.com/channel/UCFL1af7_wdnhHXL1InzaMvA?sub_confirmation=1
+twitter:
+  card: summary
+  username: layer5
+  url: "https://twitter.com/layer5"
+  image: "https://khulnasoft.com/assets/images/layer5/5-dark-bg.png"
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: UA-2969471-4 # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+timezone: Etc/UTC
+
+# Build settings
+# theme: minima
+# paginate: 5
+# markdown: kramdown
+permalink: pretty
+sass:
+  sass_dir: _sass
+  # style: compact  
+
+# This logic is included based on differences of the handling of trailing slashes between Jekyll and GitHub Pages
+# permalinks:
+#  - docs: "/docs"
+
+collections_dir: collections
+collections:
+  pages:
+    output: true 
+  docs:
+    output: true
+    
+    
+
+
+# defaults:
+#   - scope:
+#       path: ""
+    #values:
+     # image: /assets/images/layer5/layer5-tag-linkedin.png
+  # - scope:
+  #     type: pages
+  #     path: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "plain"
+      image:
+        path: /assets/images/logos/nighthawk/icon/nighthawk-logo.png
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        content:
+          width: 1500
+          height: 2500
+  -
+    scope:
+      path: ""
+      type: "docs/overview"
+    values:
+      layout: "doc"
+      permalink: /docs/:section/:title      
+      _options:
+        content:
+          width: 1500
+          height: 2500      
+  -
+    scope:
+      path: "docs/architecture"
+      type: "docs"
+    values:
+      layout: "doc"
+      permalink: /docs/:section/:title
+      # category: architecture
+      _options:
+        content:
+          width: 1500
+          height: 2500                  
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "programs.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "contact.html"
+    values:
+      full_width: true
+
+jekyll-archives:
+  enabled:
+    - categories
+
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS
+
+# Colors
+getnighthawk:
+  charcoal: "#3c494f"
+  caribbeangreen: "#00b39f"
+  keppel: "#00d3a9"
+  saffron: "#EBC017"
+  dark-jungle-green: "#1E2117"
+  gray: "#a0aaaa"
+
+
+## Reference - OSS this site uses:
+
