@@ -13,7 +13,7 @@ Relevant coding style guidelines are the Go Code Review Comments and the Formatt
 
 # <a name="contributing">General Contribution Flow</a>
 
-In order to contribute to Meshery, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
+In order to contribute to Meshplay, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
 
 ## <a name="commit-signing">Signing-off on Commits (Developer Certificate of Origin)</a>
 
@@ -51,7 +51,7 @@ Or you may configure your IDE, for example, Visual Studio Code to automatically 
 <a href="https://user-images.githubusercontent.com/7570704/64490167-98906400-d25a-11e9-8b8a-5f465b854d49.png" ><img src="https://user-images.githubusercontent.com/7570704/64490167-98906400-d25a-11e9-8b8a-5f465b854d49.png" width="50%"><a>
 
 # <a name="getnighthawk">About GetNightHawk?</a>
-GetNighthawk aims to provide generally-available distributions of Nighthawk under different architectures and platforms and easy-to-use tooling for installation and operation. This will include creating distributions of Nighthawk as well as augmenting existing tooling, Meshery, to retrieve these arch-specific packages and update their deployments.
+GetNighthawk aims to provide generally-available distributions of Nighthawk under different architectures and platforms and easy-to-use tooling for installation and operation. This will include creating distributions of Nighthawk as well as augmenting existing tooling, Meshplay, to retrieve these arch-specific packages and update their deployments.
 
 
 # <a name="contribute">How to Contribute?</a>

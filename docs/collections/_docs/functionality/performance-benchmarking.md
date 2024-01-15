@@ -4,12 +4,12 @@ title: Running Performance Tests
 section: "Performance Benchmarking"
 ---
 
-[Meshery](https://meshplay.io/) uses Nighthawk as one of its load generators to run performance benchmarking. Meshery is the canonical implementation of [Service Mesh Performance](https://smp-spec.io/), CNCF's service mesh performance benchmarking specification.
+[Meshplay](https://meshplay.io/) uses Nighthawk as one of its load generators to run performance benchmarking. Meshplay is the canonical implementation of [Service Mesh Performance](https://smp-spec.io/), CNCF's service mesh performance benchmarking specification.
 <br/>
 
 ## Performance Benchmarking Using meshplayctl
 
-`meshplayctl` is the command line interface of Meshery. `meshplayctl` along with other load generators,  `meshplayctl` can use Nighthawk to run performance benchmarks.
+`meshplayctl` is the command line interface of Meshplay. `meshplayctl` along with other load generators,  `meshplayctl` can use Nighthawk to run performance benchmarks.
 <br/>
 
 ## Install meshplayctl
@@ -21,7 +21,7 @@ meshplayctl -h
 ```
 
 ```
-Meshery is the service mesh management plane, providing lifecycle, performance, and configuration management of service meshes and their workloads.
+Meshplay is the service mesh management plane, providing lifecycle, performance, and configuration management of service meshes and their workloads.
 
 Usage:
   meshplayctl [command]
@@ -34,7 +34,7 @@ Available Commands:
   mesh        Service Mesh Lifecycle Management
   pattern     Service Mesh Patterns Management
   perf        Performance Management
-  system      Meshery Lifecycle Management
+  system      Meshplay Lifecycle Management
   version     Version of meshplayctl
 
 Flags:
@@ -85,4 +85,4 @@ You can then use `meshplayctl` to run the test using this configuration file as 
 meshplayctl perf apply -f perf-test.yaml
 ```
 
-Check the [Meshery usage guides](https://docs.meshplay.io/guides) for more information on running performance benchmarks.
+Check the [Meshplay usage guides](https://docs.meshplay.io/guides) for more information on running performance benchmarks.

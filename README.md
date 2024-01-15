@@ -8,27 +8,27 @@
 
 ## What is Nighthawk?
 
-Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. Khulnasoft offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimal configurations for your service mesh deployment. As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshery’s (and Envoy’s) load generator and is written in C++.
+Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. Khulnasoft offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimal configurations for your service mesh deployment. As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshplay’s (and Envoy’s) load generator and is written in C++.
 
-## Nighthawk and Meshery
+## Nighthawk and Meshplay
 
-Meshery integrates Nighthawk as one of (currently) three choices of load generator for characterizing and managing the performance of service meshes and their workloads.
-Centric to the advancement of Nighthawk is the Meshery and Service Mesh Performance projects, which enable Nighthawk’s standards-based distributed performance management. The intersection of these projects allow researchers and users to conveniently identify the optimal service mesh configuration while considering their specific environment, application and load. Meshery orchestrates multiple instances of Nighthawk (horizontal scaling) and provides an easy to use interface for Nighthawk’s adaptive load controller capability. 
+Meshplay integrates Nighthawk as one of (currently) three choices of load generator for characterizing and managing the performance of service meshes and their workloads.
+Centric to the advancement of Nighthawk is the Meshplay and Service Mesh Performance projects, which enable Nighthawk’s standards-based distributed performance management. The intersection of these projects allow researchers and users to conveniently identify the optimal service mesh configuration while considering their specific environment, application and load. Meshplay orchestrates multiple instances of Nighthawk (horizontal scaling) and provides an easy to use interface for Nighthawk’s adaptive load controller capability. 
 
 ---
 ---
 
 # Go-Nighthawk
 
-Nighthawk adapter to run service mesh load tests with Meshery.
+Nighthawk adapter to run service mesh load tests with Meshplay.
 
-## Load Generators in Meshery
+## Load Generators in Meshplay
 
-Users may prefer to use one load generator over the next given the difference of capabilities between load generators, so Meshery provides a load generator interface (a gRPC interface) behind which a load generator can be implemented. Meshery provides users with choice of which load generator they prefer to use for a given performance test. Users may set their configure their own preference of load generator different that the default load generator.
+Users may prefer to use one load generator over the next given the difference of capabilities between load generators, so Meshplay provides a load generator interface (a gRPC interface) behind which a load generator can be implemented. Meshplay provides users with choice of which load generator they prefer to use for a given performance test. Users may set their configure their own preference of load generator different that the default load generator.
 
-### What function do load generators in Meshery provide?
+### What function do load generators in Meshplay provide?
 
-Load generators will provide the capability to run load tests from Meshery. As of today the load generators are embedded as libraries in Meshery and Meshery invokes the load generators APIs with the right load test options to run the load test. At the moment, Meshery has support for HTTP load generators. Support for GRPC and TCP load testing is on the roadmap. Meshery has functional integration with `fortio`, `wrk2`, and `nighthawk`.
+Load generators will provide the capability to run load tests from Meshplay. As of today the load generators are embedded as libraries in Meshplay and Meshplay invokes the load generators APIs with the right load test options to run the load test. At the moment, Meshplay has support for HTTP load generators. Support for GRPC and TCP load testing is on the roadmap. Meshplay has functional integration with `fortio`, `wrk2`, and `nighthawk`.
 
 ### Why support multiple load generators?
 

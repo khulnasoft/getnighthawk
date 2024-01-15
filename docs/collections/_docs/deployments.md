@@ -7,9 +7,9 @@ section: "Getting Started"
 ## Deployment: Single
 
 <img src="/assets/images/screenshots/meshplay-nighthawk.png" style="padding:2%"/>
-_Single instance deployment with Meshery_
+_Single instance deployment with Meshplay_
 
 ## Deployment: Distributed
 
 <img src="/assets/images/screenshots/meshplay-nighthawk.png" style="padding:2%"/>
-_Distributed deployment with Meshery_
+_Distributed deployment with Meshplay_
