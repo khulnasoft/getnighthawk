@@ -8,7 +8,7 @@
 
 ## What is Nighthawk?
 
-Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. Khulnasoft offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimal configurations for your service mesh deployment. As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshplay’s (and Envoy’s) load generator and is written in C++.
+Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. Khulnasoft offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimal configurations for your service mesh deployment. As a KhulnaSoft performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshplay’s (and Envoy’s) load generator and is written in C++.
 
 ## Nighthawk and Meshplay
 
