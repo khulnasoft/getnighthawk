@@ -1,24 +1,12 @@
-check:
-	golangci-lint run
+# Building GetNighthawk
 
-check-clean-cache:
-	golangci-lint cache clean
-
-protoc-setup:
-	wget -P meshes https://raw.githubusercontent.com/khulnasoft/meshplay/master/meshes/meshops.proto
-
-proto:
-	protoc -I meshes/ meshes/meshops.proto --go_out=plugins=grpc:./meshes/
-
-
-
-
+jekyll=bundle exec jekyll
 
 site:
-	$(jekyll) serve --drafts --livereload
+	cd docs; $(jekyll) serve --drafts --livereload --config _config.yml
 
-build:
-	$(jekyll) build --drafts
+setup:
+	docker pull envoyproxy/nighthawk-dev; cd cmd; go mod tidy;
+run:
+	go run cmd/main.go
 
-docker:
-	docker run --name site -d --rm -p 4000:4000 -v `pwd`:"/srv/jekyll" jekyll/jekyll:4.0.0 bash -c "bundle install; jekyll serve --drafts --livereload"

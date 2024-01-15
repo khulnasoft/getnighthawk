@@ -47,7 +47,7 @@ linters-settings:
     settings:
       exclude: -G204
   govet:
-    check-shadowing: false
+    check-shadowing: true
     settings:
       printf:
         funcs:
@@ -56,7 +56,7 @@ linters-settings:
           - (github.com/golangci/golangci-lint/pkg/logutils.Log).Errorf
           - (github.com/golangci/golangci-lint/pkg/logutils.Log).Fatalf
   lll:
-    line-length: 950
+    line-length: 140
   maligned:
     suggest-new: true
   misspell:
@@ -72,41 +72,40 @@ linters:
   # inverted configuration with `enable-all` and `disable` is not scalable during updates of golangci-lint
   disable-all: true
   enable:
-    # todo[kushthedude]: commenting most of the checks as our code can't persist all of the changes, however we can plan further on code-quality after v1.0 release.
-    # - bodyclose
-    # - deadcode
+    - bodyclose
+    - deadcode
     - dogsled
+    - dupl
     - errcheck
-    # - exhaustive
-    # - funlen
-    # - goconst
-    # - gocritic
-    # - gocyclo
+    - exhaustive
+    - funlen
+    - goconst
+    - gocritic
+    - gocyclo
     - gofmt
     - goimports
     - golint
-    # todo[kusthedude]: restore gosec check, once this issue is resolved https://github.com/golangci/golangci-lint/issues/177
-    # - gosec
-    # - gomnd
-    # - goprintffuncname
-    # - gosimple
+    - gomnd
+    - goprintffuncname
+    - gosimple
     - govet
-    # - ineffassign
-    # - interfacer
+    - ineffassign
+    - interfacer
     - lll
     - misspell
-    # - nakedret
-    # - nolintlint
-    # - rowserrcheck
-    # - scopelint
+    - nakedret
+    - noctx
+    - nolintlint
+    - rowserrcheck
+    - scopelint
     - staticcheck
-    # - structcheck
+    - structcheck
     - stylecheck
     - typecheck
-    # - unconvert
-    # - unparam
-    # - unused
-    # - varcheck
+    - unconvert
+    - unparam
+    - unused
+    - varcheck
     - whitespace
 
   # don't enable:
@@ -140,7 +139,6 @@ run:
     - internal/cache
     - internal/renameio
     - internal/robustio
-  timeout: 5m
 
 # golangci.com configuration
 # https://github.com/golangci/golangci/wiki/Configuration

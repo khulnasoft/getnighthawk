@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TXGF3DB');</script>
+    <!-- End Google Tag Manager -->
+    <noscript>
+      <div style = "text-align: center; background-color: #1E2117;">
+      <br>
+      <div >
+      <p style="color: #EBC017; "> Please enable JavaScript to view the page</p>
+
+    <br>
+  </div>
+    </noscript>
+    {% seo %} {% feed_meta %} {% if jekyll.environment == 'production' %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/stellarnav.min.css" />
+    {% else %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/stellarnav.css" />
+    {% endif %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/subscribe.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getnighthawk.css" />
+
+    {% if page.title == 'Programs' or page.title == 'CNCF' or page.title ==
+    'CommunityBridge 2020' or page.title == 'Google Summer of Code 2019' or
+    page.title == 'Google Summer of Code' or page.title == 'GSOD2020' or
+    page.title == 'MLH Fellowship' %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/program.css" />
+    {% endif %} {% if jekyll.environment == 'production' and
+    site.google_analytics_key != '' %}
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "{{ site.google_analytics_key }}", "auto");
+      ga("send", "pageview");
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    {% endif %}
+    <!-- HTML Meta Tags -->
+    <title>Nighthawk</title>
+    <meta name="description" content="The Nighthawk distribution for service mesh performance characterization. Integrating Meshery and Service Mesh Performance.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://getnighthawk.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nighthawk">
+    <meta property="og:description" content="The Nighthawk distribution for servicFe mesh performance characterization. Integrating Meshery and Service Mesh Performance.">
+    <meta property="og:image" content="https://getnighthawk.dev/assets/images/logos/nighthawk/icon/nighthawk-logo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="getnighthawk.dev">
+    <meta property="twitter:url" content="https://getnighthawk.dev/">
+    <meta name="twitter:title" content="Nighthawk">
+    <meta name="twitter:description" content="The Nighthawk distribution for service mesh performance characterization. Integrating Meshery and Service Mesh Performance.">
+    <meta name="twitter:image" content="https://getnighthawk.dev/assets/images/logos/nighthawk/icon/nighthawk-logo.png">
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+  </head>
+
+  <body style="overflow-x: hidden">
+    {% if page.title != "Nighthawk | The Performance Characterization Tool" and page.title != "Programs" %}
+    <header id="mainHeader" class="filledHeader">
+    {% else %}
+    <header id="mainHeader">
+    {% endif %}
+      <div class="container nav-container custom-nav-container">
+        <div class="custom-nav-cont-1">
+          <!-- <li class="nav-item">
+            <a href="/" class="nav-text">HOME</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="/about" class="nav-text">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="/docs" class="nav-text">DOCS</a>
+          </li>
+        </div>
+        <div class="project-name">
+          <a href="{{ site.baseurl }}/">
+            <img
+              src="{{ site.baseurl }}/assets/images/logos/nighthawk/horizontal/nighthawk-text-side.svg"
+              alt="Nighthawk Logo"
+              height="80px"
+            />&nbsp;
+          </a>
+        </div>
+        <div class="custom-nav-cont-2">
+          <li class="nav-item">
+            <a href="https://khulnasoft.com/community" class="nav-text">COMMUNITY</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/khulnasoft/getnighthawk" class="nav-text">GITHUB</a>
+          </li>
+        </div>
+        
+        {% include navigation.html%}
+      </div>
+    </header>
+  </body>
+</html>

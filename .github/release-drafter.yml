@@ -7,13 +7,11 @@ categories:
       - 'kind/enhancement'
   - title: '🐛 Bug Fixes'
     labels:
-      - 'fix'
-      - 'bugfix'
+      - 'kind/fix'
+      - 'kind/bugfix'
       - 'kind/bug'
   - title: '🧰 Maintenance'
-    labels: 
-      - 'kind/chore'
-      - 'chore'
+    label: 'kind/chore'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 template: |
   ## What's New
