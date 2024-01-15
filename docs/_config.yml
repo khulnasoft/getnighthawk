@@ -1,7 +1,7 @@
 title: Nighthawk
-author: Layer5 Authors
+author: Khulnasoft Authors
 email: community@khulnasoft.com
-name:  Layer5
+name:  Khulnasoft
 description: "The Nighthawk distribution for service mesh performance characterization. Integrating Meshery and Service Mesh Performance."
 url: "https://getnighthawk.dev"
 #baseurl: /docs

@@ -4,56 +4,56 @@ title: Running Performance Tests
 section: "Performance Benchmarking"
 ---
 
-[Meshery](https://meshery.io/) uses Nighthawk as one of its load generators to run performance benchmarking. Meshery is the canonical implementation of [Service Mesh Performance](https://smp-spec.io/), CNCF's service mesh performance benchmarking specification.
+[Meshery](https://meshplay.io/) uses Nighthawk as one of its load generators to run performance benchmarking. Meshery is the canonical implementation of [Service Mesh Performance](https://smp-spec.io/), CNCF's service mesh performance benchmarking specification.
 <br/>
 
-## Performance Benchmarking Using mesheryctl
+## Performance Benchmarking Using meshplayctl
 
-`mesheryctl` is the command line interface of Meshery. `mesheryctl` along with other load generators,  `mesheryctl` can use Nighthawk to run performance benchmarks.
+`meshplayctl` is the command line interface of Meshery. `meshplayctl` along with other load generators,  `meshplayctl` can use Nighthawk to run performance benchmarks.
 <br/>
 
-## Install mesheryctl
+## Install meshplayctl
 
-Check this [quick start guide](https://meshery.io/#getting-started) on how to install mesheryctl.
+Check this [quick start guide](https://meshplay.io/#getting-started) on how to install meshplayctl.
 
 ```
-mesheryctl -h
+meshplayctl -h
 ```
 
 ```
 Meshery is the service mesh management plane, providing lifecycle, performance, and configuration management of service meshes and their workloads.
 
 Usage:
-  mesheryctl [command]
+  meshplayctl [command]
 
 Available Commands:
   app         Service Mesh Apps Management
   completion  generate the autocompletion script for the specified shell
-  exp         Experimental commands for mesheryctl
+  exp         Experimental commands for meshplayctl
   help        Help about any command
   mesh        Service Mesh Lifecycle Management
   pattern     Service Mesh Patterns Management
   perf        Performance Management
   system      Meshery Lifecycle Management
-  version     Version of mesheryctl
+  version     Version of meshplayctl
 
 Flags:
-      --config string   path to config file (default "/Users/navendu/.meshery/config.yaml")
-  -h, --help            help for mesheryctl
+      --config string   path to config file (default "/Users/navendu/.meshplay/config.yaml")
+  -h, --help            help for meshplayctl
   -v, --verbose         verbose output
 
-Use "mesheryctl [command] --help" for more information about a command.
+Use "meshplayctl [command] --help" for more information about a command.
 ```
 <br/>
 
 ## Run a performance test
 
-See [this guide](https://docs.meshery.io/reference/mesheryctl#service-mesh-performance-management) for reference to mesheryctl commands.
+See [this guide](https://docs.meshplay.io/reference/meshplayctl#service-mesh-performance-management) for reference to meshplayctl commands.
 
 The command below runs a performance benchmark test with Nighthawk with the test configuration provided through flags.
 
 ```
-mesheryctl perf apply --profile istio-soak-test --concurrent-requests 1 --duration 15s --load-generator nighthawk --mesh istio --url http://localhost:2323
+meshplayctl perf apply --profile istio-soak-test --concurrent-requests 1 --duration 15s --load-generator nighthawk --mesh istio --url http://localhost:2323
 ```
 
 <br/>
@@ -79,10 +79,10 @@ clients:
 duration: "15s"
 ```
 
-You can then use `mesheryctl` to run the test using this configuration file as shown below.
+You can then use `meshplayctl` to run the test using this configuration file as shown below.
 
 ```
-mesheryctl perf apply -f perf-test.yaml
+meshplayctl perf apply -f perf-test.yaml
 ```
 
-Check the [Meshery usage guides](https://docs.meshery.io/guides) for more information on running performance benchmarks.
+Check the [Meshery usage guides](https://docs.meshplay.io/guides) for more information on running performance benchmarks.

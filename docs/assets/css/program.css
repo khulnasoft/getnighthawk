@@ -230,7 +230,7 @@ img {
   margin-left: 1rem;
 }
 
-#cncf-meshery-img {
+#cncf-meshplay-img {
   width: 80%;
   padding-right: 1rem;
   padding-top: 5rem;
@@ -341,7 +341,7 @@ img {
     width: 50% !important;
   }
 
-  #cncf-meshery-img {
+  #cncf-meshplay-img {
     display: none;
   }
 
