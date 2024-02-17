@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	nighthawk_client "github.com/layer5io/nighthawk-go/pkg/proto"
+	nighthawk_client "github.com/khulnasoft/nighthawk-go/pkg/proto"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/durationpb"
 )
