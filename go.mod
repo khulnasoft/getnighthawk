@@ -14,8 +14,10 @@ require (
 )
 
 require (
+	github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4 // indirect
 	github.com/cockroachdb/apd/v3 v3.2.0 // indirect
-	github.com/stretchr/testify v1.8.3 // indirect
+	github.com/envoyproxy/go-control-plane v0.11.1 // indirect
+	github.com/envoyproxy/protoc-gen-validate v1.0.2 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230920204549-e6e6cdab5c13 // indirect
 )
 
@@ -23,7 +25,6 @@ require (
 	cuelang.org/go v0.6.0 // indirect
 	github.com/golang/protobuf v1.5.3
 	github.com/google/uuid v1.3.1 // indirect
-	github.com/layer5io/nighthawk-go v1.0.6
 	github.com/mpvl/unique v0.0.0-20150818121801-cbe035fff7de // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
 	golang.org/x/net v0.19.0 // indirect

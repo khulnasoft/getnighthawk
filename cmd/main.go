@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/layer5io/nighthawk-go/apinighthawk"
+	"github.com/khulnasoft/nighthawk-go/apinighthawk"
 	// "fortio.org/fortio/fhttp"
 	"fortio.org/fortio/periodic"
 	"github.com/pkg/errors"
