@@ -10,7 +10,6 @@ import (
 )
 
 func (opt *CommandLineOptions) UnmarshalJSON(data []byte) error {
-
 	type Duration struct {
 		Seconds int64 `json:"seconds"`
 		Nanos   int32 `json:"nanos"`

@@ -18,6 +18,7 @@ require (
 require (
 	cuelang.org/go v0.6.0 // indirect
 	fortio.org/assert v1.2.0 // indirect
+	github.com/bazelbuild/buildtools v0.0.0-20240207142252-03bf520394af // indirect
 	github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4 // indirect
 	github.com/cockroachdb/apd/v3 v3.2.0 // indirect
 	github.com/google/uuid v1.3.1 // indirect
