@@ -2,7 +2,7 @@
 
 # Nighthawk
 
-- Project site: https://getnighthawk.dev
+- Project site: https://khulnasoft.github.io
 - Project doc: https://docs.google.com/document/d/1lHfMo4iIx2WXFZIspfHyxTsPR1T63_2IV5NUkgxoo0w/edit#
 - Project Slack: http://slack.khulnasoft.com
 
