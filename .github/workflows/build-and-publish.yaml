@@ -48,9 +48,9 @@ jobs:
       with:
         go-version: '^1.13.1'
     - name: Build and Publish Assets
-      uses: khulnasoft/getnighthawk@master
+      uses: layer5io/getnighthawk@master
       with:
-        repo: khulnasoft/getnighthawk
+        repo: layer5io/getnighthawk
         version: ${{ github.event.inputs.version }}
         token: ${{ secrets.GH_ACCESS_TOKEN }}
         os: ${{ matrix.os }}
@@ -64,7 +64,7 @@ jobs:
     - name: Checkout GetNighthawk
       uses: actions/checkout@v2
       with:
-        repository: 'khulnasoft/getnighthawk'
+        repository: 'layer5io/getnighthawk'
     - name: Build and Tag Docker Image
       run: |
         chmod +x ./ci/docker_build.sh

@@ -247,7 +247,7 @@ img {
 }
 
 @media screen and (max-width: 840px) {
-  .khulnasoft-details {
+  .layer5-details {
     border-left: 1px solid rgb(210, 180, 140);
   }
 
@@ -272,7 +272,7 @@ img {
     padding-left: 0.4rem;
   }
 
-  .khulnasoft-details {
+  .layer5-details {
     border-left: 1px solid rgb(210, 180, 140);
   }
 

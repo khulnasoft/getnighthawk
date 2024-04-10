@@ -13,10 +13,10 @@
   new_window: false
   highlight: false
 - name: Community
-  link: https://khulnasoft.com/community
+  link: https://layer5.io/community
   new_window: false
   highlight: false
 - name: GitHub
-  link: https://github.com/khulnasoft/getnighthawk
+  link: https://github.com/layer5io/getnighthawk
   new_window: false
   highlight: false

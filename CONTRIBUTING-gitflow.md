@@ -11,7 +11,7 @@ While this isn't an absolutely necessary step, if you plan on doing anything mor
 
 ## Add 'upstream' repo to list of remotes
 ```
-git remote add upstream https://github.com/khulnasoft/getnighthawk.git
+git remote add upstream https://github.com/layer5io/getnighthawk.git
 ``` 
 
 
