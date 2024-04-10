@@ -76,7 +76,7 @@ You can contribute to the GetNightHawk main project and documentation or you cou
 
 ### UI Lint Rules
 
-Layer5 uses ES-Lint to maintain code quality & consistency in our UI Code.
+KhulnaSoft uses ES-Lint to maintain code quality & consistency in our UI Code.
 
 # <a name="maintaining"> Reviews</a>
 All contributors are invited to review pull requests. See this short video on [how to review a pull request](https://www.youtube.com/watch?v=isLfo7jfE6g&feature=youtu.be).
@@ -90,9 +90,9 @@ Resources: https://lab.github.com and https://try.github.com/
 2. The proto file has discrepancies and is not completely compatible with fortio. 
 Check the [issue](https://github.com/envoyproxy/nighthawk/issues/932) and go through comments for clarity.
 
-3. To handle this mismatched types, we have re-implemented [Unmarshall function](https://github.com/khulnasoft/meshplay/blob/b3199637ec7a5a25cac476cf1d0d2c474c978c37/server/helpers/load_test_interface.go#L447) to facilitate compatibility.
+3. To handle this mismatched types, we have re-implemented [Unmarshall function](https://github.com/meshery/meshery/blob/b3199637ec7a5a25cac476cf1d0d2c474c978c37/server/helpers/load_test_interface.go#L447) to facilitate compatibility.
 
-In case of incompatibility in future, we need to alter the [transorm function](https://github.com/khulnasoft/getnighthawk/blob/d13923e181c6bd8daddacee74d8a8d571658d839/pkg/client/transform.go) or [Unmarshall function](https://github.com/khulnasoft/meshplay/blob/b3199637ec7a5a25cac476cf1d0d2c474c978c37/server/helpers/load_test_interface.go#L447).
+In case of incompatibility in future, we need to alter the [transorm function](https://github.com/khulnasoft/getnighthawk/blob/d13923e181c6bd8daddacee74d8a8d571658d839/pkg/client/transform.go) or [Unmarshall function](https://github.com/meshery/meshery/blob/b3199637ec7a5a25cac476cf1d0d2c474c978c37/server/helpers/load_test_interface.go#L447).
 
 *The above Unmarshall function needs to be removed once the [issue](https://github.com/envoyproxy/nighthawk/issues/932) is fixed.*
 
@@ -100,10 +100,10 @@ In case of incompatibility in future, we need to alter the [transorm function](h
 
 This repository and site are available as open source under the terms of the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
 
-### About Layer5
+### About KhulnaSoft
 
 **Community First**
-<p>The <a href="https://khulnasoft.com">Layer5</a> community represents the largest collection of service mesh projects and their maintainers in the world.</p>
+<p>The <a href="https://khulnasoft.com">KhulnaSoft</a> community represents the largest collection of service mesh projects and their maintainers in the world.</p>
 
 **Open Source First**
-<p>Our projects establish industry standards and enable service developers, owners, and operators with repeatable patterns and best practices for managing all aspects of distributed services. Our shared commitment to the open source spirit push the Layer5 community and its projects forward.</p>
+<p>Our projects establish industry standards and enable service developers, owners, and operators with repeatable patterns and best practices for managing all aspects of distributed services. Our shared commitment to the open source spirit push the KhulnaSoft community and its projects forward.</p>

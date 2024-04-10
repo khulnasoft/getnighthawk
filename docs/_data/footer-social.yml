@@ -1,7 +1,7 @@
 - title: Social
   links:
   - name: Twitter
-    link: https://twitter.com/layer5
+    link: https://twitter.com/khulnasoft
     social_icon: Twitter
     new_window: true
   - name: Calendar
@@ -13,7 +13,7 @@
     social_icon: YouTube
     new_window: true
   - name: Docker Hub
-    link: https://hub.docker.com/u/layer5/
+    link: https://hub.docker.com/u/khulnasoft/
     social_icon: DockerHub
     new_window: true
   - name: Slack

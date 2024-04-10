@@ -6,7 +6,7 @@ section: "Overview"
 
 # What is Nighthawk?
 
-Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. Layer5 offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimatal configurations for your service mesh deployment. As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshery's (and Envoy's) load generator and is written in C++.
+Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. KhulnaSoft offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimatal configurations for your service mesh deployment. As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshery's (and Envoy's) load generator and is written in C++.
 
 
 <!-- GetNighthawk was built with the goal to make it easy to use Nighthawk. -->

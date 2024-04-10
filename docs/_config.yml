@@ -1,22 +1,22 @@
 title: Nighthawk
-author: Layer5 Authors
+author: KhulnaSoft Authors
 email: community@khulnasoft.com
-name:  Layer5
+name:  KhulnaSoft
 description: "The Nighthawk distribution for service mesh performance characterization. Integrating Meshery and Service Mesh Performance."
-url: "https://khulnasoft.github.io"
+url: "https://getnighthawk.dev"
 #baseurl: /docs
 
 #Contact / Social
 github: https://github.com/khulnasoft/getnighthawk
 slack: http://slack.khulnasoft.com/
 blog: https://khulnasoft.com/blog
-docker: https://hub.docker.com/u/layer5/
+docker: https://hub.docker.com/u/khulnasoft/
 youtube: https://www.youtube.com/channel/UCFL1af7_wdnhHXL1InzaMvA?sub_confirmation=1
 twitter:
   card: summary
-  username: layer5
-  url: "https://twitter.com/layer5"
-  image: "https://khulnasoft.com/assets/images/layer5/5-dark-bg.png"
+  username: khulnasoft
+  url: "https://twitter.com/khulnasoft"
+  image: "https://khulnasoft.com/assets/images/khulnasoft/5-dark-bg.png"
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX
@@ -51,7 +51,7 @@ collections:
 #   - scope:
 #       path: ""
     #values:
-     # image: /assets/images/layer5/layer5-tag-linkedin.png
+     # image: /assets/images/khulnasoft/khulnasoft-tag-linkedin.png
   # - scope:
   #     type: pages
   #     path: ""

@@ -230,7 +230,7 @@ img {
   margin-left: 1rem;
 }
 
-#cncf-meshplay-img {
+#cncf-meshery-img {
   width: 80%;
   padding-right: 1rem;
   padding-top: 5rem;
@@ -247,7 +247,7 @@ img {
 }
 
 @media screen and (max-width: 840px) {
-  .layer5-details {
+  .khulnasoft-details {
     border-left: 1px solid rgb(210, 180, 140);
   }
 
@@ -272,7 +272,7 @@ img {
     padding-left: 0.4rem;
   }
 
-  .layer5-details {
+  .khulnasoft-details {
     border-left: 1px solid rgb(210, 180, 140);
   }
 
@@ -341,7 +341,7 @@ img {
     width: 50% !important;
   }
 
-  #cncf-meshplay-img {
+  #cncf-meshery-img {
     display: none;
   }
 
