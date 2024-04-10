@@ -1,7 +1,7 @@
 package nighthawk
 
 import (
-	"github.com/khulnasoft/meshkit/errors"
+	"github.com/layer5io/meshkit/errors"
 )
 
 const (

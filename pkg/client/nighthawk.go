@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/khulnasoft/meshkit/utils"
+	"github.com/layer5io/meshkit/utils"
 	nighthawk_client "github.com/khulnasoft/nighthawk-go/pkg/proto"
 )
 
